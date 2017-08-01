@@ -1,0 +1,46 @@
+@meine_farbe: #280;
+
+.ueberschrift, h1{
+    color: @meine_farbe;
+    text-align: center;
+}
+ul{
+    //  background: @meine_farbe;
+    
+    li{
+        list-style: none;
+        padding: 5px;
+        float: left;
+        a{
+            background-color: #369;
+            color: #fff;
+            
+        }
+    }
+} 
+
+.background{
+    background: @meine_farbe;
+}
+
+.bg_yellow{
+    background: #ff6;
+}
+
+.nav-header, .text{
+     background: @meine_farbe;
+    color: #fff;
+    font-size: 38px;
+}
+
+p{
+    a{
+        font-weight: bold;
+      }
+}
+
+.showJS{
+    margin: 20px;
+    margin-top:  120px;
+    font-size: 20px;
+}

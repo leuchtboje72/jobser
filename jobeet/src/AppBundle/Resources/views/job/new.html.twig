@@ -1,0 +1,18 @@
+{% extends 'AppBundle::base.html.twig' %}
+
+{% block body %}
+
+    <h1>Job creation</h1>
+
+    {{ form_start(form, {attr: {class: 'form-horizontal'}}) }}
+        {{ form_widget(form, {'form_type': 'horizontal'}) }}
+        <input type="submit" value="Create"  class="btn btn-large btn-default"/>
+    {{ form_end(form) }}
+
+    <ul class="breadcrumb">
+        <li>
+            <a class="btn btn-large btn-default" href="{{ path('job_index') }}">Back to the list</a>
+        </li>
+    </ul>
+
+{% endblock %}
